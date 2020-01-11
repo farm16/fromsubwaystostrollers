@@ -1,0 +1,10 @@
+@import 'constants';
+@import 'navbar';
+@import 'responsive';
+body {
+  // background: $primary-color;
+  color: set-text-color($primary-color);
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+}
