@@ -1,8 +1,13 @@
-import React from 'react';
-import NavBar from './Components/NavBar';
-
+import React from "react";
+import NavBar from "./Components/NavBar";
+import Home from "./Pages/Home";
 function App() {
-  return <NavBar></NavBar>;
+  return (
+    <React.Fragment>
+      <NavBar></NavBar>
+      <Home></Home>
+    </React.Fragment>
+  );
 }
 
 export default App;

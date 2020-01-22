@@ -14,7 +14,9 @@ $secondary-color: #ff652f;
 @function set-text-color($color) {
   @if (lightness($color) > 40%) {
     @return #fff;
-  } @else {
+  }
+
+  @else {
     @return #000;
   }
 }
@@ -24,11 +26,13 @@ $secondary-color: #ff652f;
     @content;
   }
 }
+
 @mixin media-lg {
   @media screen and (min-width: 1024px) {
     @content;
   }
 }
+
 @mixin media-xl {
   @media screen and (min-width: 1600px) {
     @content;

@@ -1,0 +1,43 @@
+.row {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+
+}
+
+.mainColumn {
+  flex: 50%;
+  flex-flow: column;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+
+  &__picture {
+    border-radius: 50%;
+  }
+}
+
+.regularColumn {
+  display: flex;
+  flex: 50%;
+  flex-flow: column;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+
+  &__First {
+    border-radius: 50%;
+  }
+
+  &__Second {
+    border-radius: 0%;
+  }
+
+  &__Third {
+    border-radius: 50% 50% 0% 0%;
+  }
+
+  &__description {
+    display: inline-block;
+  }
+}

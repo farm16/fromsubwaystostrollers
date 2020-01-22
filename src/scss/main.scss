@@ -1,10 +1,12 @@
 @import "constants";
 @import "navbar";
 @import "responsive";
+@import "home";
+
 body {
   // background: $primary-color;
   color: set-text-color($primary-color);
-  height: 100vh;
+  height: 100%;
   font-family: "Kalam", cursive;
 
   // font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
