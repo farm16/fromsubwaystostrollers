@@ -1,43 +1,45 @@
-.row {
-  display: flex;
-  height: 100%;
-  flex-wrap: wrap;
-
-}
-
 .mainColumn {
-  flex: 50%;
+  display: flex;
   flex-flow: column;
   justify-content: center;
   align-self: center;
-  text-align: center;
 
   &__picture {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 80%;
     border-radius: 50%;
   }
 }
 
-.regularColumn {
+.recentPost {
   display: flex;
-  flex: 50%;
-  flex-flow: column;
-  justify-content: center;
-  align-self: center;
-  text-align: center;
+  flex-flow: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 30px;
 
-  &__First {
-    border-radius: 50%;
-  }
+  &__image {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
 
-  &__Second {
-    border-radius: 0%;
-  }
+    &__0 {
 
-  &__Third {
-    border-radius: 50% 50% 0% 0%;
+      border-radius: 0 50% 0 50%;
+    }
+
+    &__1 {
+      border-radius: 50% 0 50% 0;
+    }
+
+    &__2 {
+      border-radius: 0 50% 0 50%;
+    }
   }
 
   &__description {
     display: inline-block;
+
   }
 }

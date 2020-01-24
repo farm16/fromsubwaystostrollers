@@ -34,7 +34,7 @@ export default function NavBar() {
         <ul className="menu-nav">
           <li className="menu-nav__item active">
             <a href="index.html" className="menu-nav__link">
-              Motherhood
+              Parenthood
             </a>
           </li>
           <li className="menu-nav__item">
